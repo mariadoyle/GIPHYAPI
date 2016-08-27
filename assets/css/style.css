@@ -1,0 +1,47 @@
+h1{
+  font-size: 60px;
+  color: blue;
+  text-align: center;
+}
+
+.sr-only
+{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  color: blue;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+body {
+  color: blue;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white; 
+  background: url(http://image.shutterstock.com/z/stock-vector-flags-of-the-world-bunting-on-cloud-background-with-space-for-your-text-eps-vector-format-109619540.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+}
+
+input 
+{
+  display: block;
+  width: 30%;
+  font-size: 13px;
+  margin: 0 auto;
+  /*position: fixed;*/
+  float: left;
+  top: 10%;
+  left: 35%;
+}
+
+@media all and (max-width: 600px) 
+{
+  input {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+}
